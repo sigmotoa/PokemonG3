@@ -148,5 +148,43 @@ public class MainActivity extends AppCompatActivity {
                 .into(imgPokemon26);
 
 
+        ////Iniciano a llenar las cardview
+
+        ImageView imgCard1 = findViewById(R.id.img_card_pokemon_1);
+        Glide.with(this)
+                .load("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/1.png")
+                .circleCrop()
+                .into(imgCard1);
+
+ ImageView imgCard2 = findViewById(R.id.img_card_pokemon_2);
+        Glide.with(this)
+                .load("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/2.png")
+                .circleCrop()
+                .into(imgCard2);
+
+ ImageView imgCard3 = findViewById(R.id.img_card_pokemon_3);
+        Glide.with(this)
+                .load("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/3.png")
+                .circleCrop()
+                .into(imgCard3);
+
+ ImageView imgCard4 = findViewById(R.id.img_card_pokemon_4);
+        Glide.with(this)
+                .load("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/4.png")
+                .circleCrop()
+                .into(imgCard4);
+
+ ImageView imgCard5 = findViewById(R.id.img_card_pokemon_5);
+        Glide.with(this)
+                .load("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/5.png")
+                .circleCrop()
+                .into(imgCard5);
+        ImageView imgCard6 = findViewById(R.id.img_card_pokemon_6);
+        Glide.with(this)
+                .load("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/6.png")
+                .circleCrop()
+                .into(imgCard6);
+
+
     }
 }
